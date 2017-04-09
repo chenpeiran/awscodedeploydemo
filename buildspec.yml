@@ -1,10 +1,12 @@
 version: 0.1
 
 phases:
+  install:
+    commands:
+      - echo Install completed on `date`
   build:
     commands:
       - echo Build completed on `date`
-      - cp index.html /var/www/html/
 artifacts:
   files:
     - index.html
