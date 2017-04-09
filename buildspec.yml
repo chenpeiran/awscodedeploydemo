@@ -4,11 +4,6 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - cp index.html /var/www/html/
-  post_build:
-    commands:
-      - echo Build completed on `date`
-
 artifacts:
   files:
     - index.html
